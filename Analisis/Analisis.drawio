@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-29T17:32:12.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="Bj7YqINjvQA9Qk7OoZPW" version="15.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-08-29T18:01:34.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="3c8ulwsOk5AwQewlacNh" version="15.0.2" type="github" pages="5">
   <diagram id="3-jc2KOT96rvmajafxHe" name="Casos de Uso">
-    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="728" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -360,6 +360,32 @@
         </mxCell>
         <mxCell id="wDfvPLdH_36bXsooYy4B-19" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="TeB9Y_pQrQr1MYcJ8kXz-1">
           <mxGeometry x="425" y="515" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="J6TsGYkzpAbJKe3Pvp-V" name="Servicios">
+    <mxGraphModel dx="728" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="vPYiwOPbVT4KxOxhobG9-0" />
+        <mxCell id="vPYiwOPbVT4KxOxhobG9-1" parent="vPYiwOPbVT4KxOxhobG9-0" />
+        <mxCell id="vPYiwOPbVT4KxOxhobG9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=blockThin;startFill=0;endArrow=none;endFill=0;" edge="1" parent="vPYiwOPbVT4KxOxhobG9-1" source="vPYiwOPbVT4KxOxhobG9-4" target="vPYiwOPbVT4KxOxhobG9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPYiwOPbVT4KxOxhobG9-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CursoService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ crearCurso(Curso): void&lt;br&gt;+ consultarCurso(Modalidad): List&amp;lt;Curso&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ editarCurso(Curso): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="vPYiwOPbVT4KxOxhobG9-1">
+          <mxGeometry x="70" y="80" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vPYiwOPbVT4KxOxhobG9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=blockThin;startFill=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="vPYiwOPbVT4KxOxhobG9-1" source="vPYiwOPbVT4KxOxhobG9-5" target="vPYiwOPbVT4KxOxhobG9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPYiwOPbVT4KxOxhobG9-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;DescuentoService&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ crearDescuento(Curso, Modalidad): void&lt;br&gt;+ editarDescuento(Curso, Modalidad): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="vPYiwOPbVT4KxOxhobG9-1">
+          <mxGeometry x="414" y="80" width="246" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vPYiwOPbVT4KxOxhobG9-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DescuentoServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ crearDescuento(Curso, Modalidad): void&lt;br&gt;+ editarDescuento(Curso, Modalidad): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="vPYiwOPbVT4KxOxhobG9-1">
+          <mxGeometry x="414" y="310" width="246" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vPYiwOPbVT4KxOxhobG9-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;CursoServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ crearCurso(Curso): void&lt;br&gt;+ consultarCurso(Modalidad): List&amp;lt;Curso&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px&quot;&gt;+ editarCurso(Curso): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="vPYiwOPbVT4KxOxhobG9-1">
+          <mxGeometry x="70" y="310" width="250" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
